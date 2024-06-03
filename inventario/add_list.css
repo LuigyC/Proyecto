@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(../img/pexels-pixabay-355887.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    padding: 5px 13px 11px 15px;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    bottom: 0;
+    background-color: #411edb;
+}
+.header p {
+    margin-left: 20px;
+    text-align: left;
+}
+.button-logout {
+    position: relative;
+    margin-top: -50px;
+    margin-right: 20px;
+    float: right;
+    text-decoration: none;
+    border: transparent;
+    border-radius: 15px;
+    background-color: rgb(101, 6, 190);
+    padding: 10px 10px 10px 10px;
+    color: white;
+    transition: 0.5s;
+}
+.button-logout:hover {
+    background-color: #D9ddd4;
+    color: rgb(101, 6, 190);
+}
+.container {
+    margin: 90px auto;
+    margin-bottom: 50px;
+    border-radius: 300px;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgb(91, 32, 201);
+    width: 60%;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+table th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px 0px 10px 0px;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    color: white;
+    background-color: #298dba;
+}
+
+tr {
+    background-color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.timeregis {
+    text-align: center;
+}
+
+.form-group {
+    margin: 1svh 10svh 1svh 33%;
+    color: white;
+}
+
+[type=text], [type=number] {
+    font-family: "Mitr", sans-serif;
+    border-radius: 15px;
+    border: transparent;
+    padding: 7px 200px 7px 5px;
+}
+
+.return {
+    border-radius: 15px;
+    background-color: #8d15fd;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 4px 40px 4px 40px;
+    margin: 0px 0px 50px 100px;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+.return:hover {
+    background-color: #ffffff;
+    color: #8d15fd;
+}
+
+.modify {
+    border-radius: 15px;
+    border: transparent;
+    color: white;
+    padding: 4px 40px 4px 40px;
+    margin: 0px 50px 50px 100px;
+    font-size: 20px;
+    border-collapse: collapse;
+    background-color: #2c5a2c;
+    font-family: "Mitr", sans-serif;
+    transition: 0.5s;
+
+}
+
+.modify:hover {
+    background-color: #ffffff;
+    color: #2c5a2c;
+}
