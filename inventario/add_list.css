@@ -1,0 +1,241 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(img/IMG\ 03.jpg) no-repeat center center fixed;
+    background-size: cover;
+} 
+
+.header { 
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    padding: 5px 13px 11px 15px;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    bottom: 0;
+    background-color: #298dba;
+} 
+
+.header p { 
+    margin-left: 20px; 
+    text-align: left; 
+} 
+
+.button-logout { 
+    position: relative;
+    margin-top: -50px;
+    margin-right: 20px;
+    float: right;
+    text-decoration: none;
+    font-family: "Mitr", sans-serif;
+    border: transparent;
+    border-radius: 15px;
+    background-color: rgb(25, 104, 194);
+    padding: 10px 10px 10px 10px;
+    color: white;
+    transition: 0.5s;
+} 
+
+.button-logout:hover { 
+    background-color: #D9ddd4; 
+    color: #298dba;
+} 
+
+.container { 
+    margin: 90px auto; 
+    margin-bottom: 50px; 
+    border-radius: 300px; 
+    text-align: center; 
+    color: #ffffff; 
+    background-color: #298dba;
+    width: 60%; 
+    padding-bottom: 2px; 
+    padding-top: 2px; 
+} 
+
+table th, 
+tr, 
+td { 
+    border: 1px solid rgb(70, 69, 69);
+    border-collapse: collapse;
+    padding: 10px 0px 15px 10px;
+} 
+
+table { 
+    width: 100%; 
+} 
+
+th { 
+    color: white; 
+    background-color: #298dba; 
+} 
+
+tr { 
+    background-color: white;
+    background: transparent;
+    backdrop-filter: blur(30px);
+    color: white; 
+} 
+
+tr:nth-child(even) { 
+    border: 1px solid rgb(70, 69, 69);
+    border-collapse: collapse;
+    padding: 10px 0px 15px 10px;
+} 
+
+.timeregis { 
+    text-align: center; 
+} 
+
+.form-group { 
+    margin: 1svh 10svh 1svh 33%; 
+    color: white; 
+} 
+
+[type=text], [type=number] { 
+    font-family: "Mitr", sans-serif;
+    border-radius: 10svh;
+    border: transparent;
+    margin: 10px 1px 1px;
+    padding: 7px 200px 7px 5px;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    box-shadow: 0 0 10px rgb(114, 106, 106);
+    color: white;
+} 
+
+.return { 
+    border-radius: 15px; 
+    background-color: rgb(25, 104, 194);
+    color: rgb(255, 255, 255); 
+    text-decoration: none;
+    font-family: "Mitr", sans-serif;
+    padding: 4px 40px 4px 40px; 
+    margin: 0px 0px 50px 100px; 
+    font-size: 20px; 
+    transition: 0.5s; 
+} 
+
+.return:hover { 
+    background-color: #D9ddd4; 
+    color: #298dba;
+} 
+
+.modify { 
+    border-radius: 15px; 
+    border: transparent; 
+    color: white; 
+    padding: 4px 40px 4px 40px; 
+    margin: 0px 50px 50px 100px; 
+    font-size: 20px;
+    font-family: "Mitr", sans-serif;
+    border-collapse: collapse; 
+    background-color: rgb(25, 104, 194);
+    font-family: "Mitr", sans-serif; 
+    transition: 0.5s; 
+} 
+
+.modify:hover { 
+    background-color: #D9ddd4; 
+    color: #298dba;
+} 
+
+/* NUEVOS ESTILOS PARA EL BOTÓN DE SELECCIONAR ARCHIVO */
+
+/* Contenedor del input file */
+.custom-file-input {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+/* Ocultar el input original */
+.custom-file-input input[type="file"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Estilo del label que actúa como botón */
+.custom-file-input label {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: "Mitr", sans-serif;
+    background-color: rgb(25, 104, 194);
+    color: rgb(255, 255, 255); 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover */
+.custom-file-input label:hover {
+    background-color: #D9ddd4; 
+    color: #298dba;
+}
+
+/* Centrar el contenedor */
+.upload-section {
+    text-align: center;
+    margin: 20px auto;
+}
+
+/* Botón de subir archivo */
+.upload-button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Mitr", sans-serif;
+    background-color: rgb(25, 104, 194);
+    color: rgb(255, 255, 255); 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #D9ddd4; 
+    color: #298dba;
+}
+
+/* Alineación y espaciado */
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+.search-container input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.search-container button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #298dba;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.search-container button:hover {
+    background-color: #246d8f;
+}

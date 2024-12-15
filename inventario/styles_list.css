@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(img/IMG\ 03.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    padding: 5px 13px 11px 15px;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    bottom: 0;
+    background-color: #298dba;
+}
+.header p {
+    margin-left: 20px;
+    text-align: left;
+}
+.button-logout {
+    position: relative;
+    margin-top: -50px;
+    margin-right: 20px;
+    float: right;
+    text-decoration: none;
+    font-family: "Mitr", sans-serif;
+    border: transparent;
+    border-radius: 15px;
+    background-color: rgb(25, 104, 194);
+    padding: 10px 10px 10px 10px;
+    color: white;
+    transition: 0.5s;
+}
+.button-logout:hover {
+    background-color: #D9ddd4;
+    color: rgb(25, 104, 194);
+}
+.container {
+    margin: 90px auto;
+    margin-bottom: 50px;
+    border-radius: 300px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #298dba;
+    width: 60%;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+table th,
+tr,
+td {
+    border: 1px solid rgb(70, 69, 69);
+    border-collapse: collapse;
+    padding: 10px 0px 15px 10px;
+}
+table {
+    width: 100%;
+}
+th {
+    color: white;
+    background-color: #298dba;
+}
+th a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+th a:hover {
+    text-decoration: underline;
+}
+tr {
+    background: transparent;
+    backdrop-filter: blur(30px);
+    color: white;
+}
+tr:nth-child(even) {
+    background: transparent;
+    backdrop-filter: blur(30px);
+}
+.timeregis {
+    text-align: center;
+}
+.modify {
+    text-align: center;
+}
+.delete {
+    text-align: center;
+}
+.modify .bfix {
+    border-radius: 15px;
+    background-color: rgb(25, 104, 194);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Mitr", sans-serif;
+    padding: 4px 20px 4px 20px;
+    transition: 0.5s;
+}
+.modify .bfix:hover {
+    background-color: #dae7d9;
+    color: #339cff;
+}
+.delete .bdelete {
+    border-radius: 15px;
+    background-color: #ec2222;
+    text-decoration: none;
+    font-family: "Mitr", sans-serif;
+    color: white;
+    padding: 4px 20px 4px 20px;
+    transition: 0.5s;
+}
+.delete .bdelete:hover {
+    background-color: #D9ddd4;
+    color: #ec2222;
+}
+.Addlist {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+    padding: 10px 30px; 
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: "Mitr", sans-serif;
+    color: white;
+    background-color: rgb(25, 104, 194);
+    transition: 0.5s;
+}
+.Addlist:hover {
+    color: #339cff;
+    background-color: #ffffff;
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+.search-container input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.search-container button {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px; 
+    margin-bottom: 20px; 
+    padding: 10px 30px; 
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: "Mitr", sans-serif;
+    color: white;
+    background-color: rgb(25, 104, 194);
+    transition: 0.5s;
+}
+.search-container button:hover {
+    color: #339cff;
+    background-color: #ffffff;
+}

@@ -1,0 +1,117 @@
+/* Estilo general */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(../img/dark_gamer.jpg) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  width: 50svh;
+  margin: 0 auto;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  border-radius: 5svh;
+  text-align: center;
+  margin-top: 10%;
+  padding: 2% 5%;
+  font-family: "Mitr", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.form-group {
+  margin: 2svh 0;
+  position: relative;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  margin-bottom: 1svh;
+  color: white;
+}
+
+/* Contenedor de input y contraseña */
+.input-container,
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+/* Estilo general para inputs */
+.form-group input {
+  width: 100%;
+  padding: 1.5svh 40px 1.5svh 1.5svh; /* Espacio para el ícono */
+  box-sizing: border-box;
+  box-shadow: 0 0 10px rgb(114, 106, 106);
+  background: transparent;
+  border: none;
+  border-radius: 2svh;
+  color: white;
+  font-size: 1.5svh;
+  outline: none;
+}
+
+/* Ícono dentro del input */
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Alineación al borde derecho */
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 1.8svh;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.toggle-password:hover {
+  transform: translateY(-50%) scale(1.2);
+}
+
+button[type="submit"] {
+  border-collapse: collapse;
+  border: transparent;
+  border-radius: 15px;
+  font-family: "Mitr", sans-serif;
+  color: white;
+  margin: 2svh auto;
+  padding: 0.5svh 5svh;
+  background-color: transparent;
+  transition: background-color 0.5s, transform 0.2s;
+  font-size: 1.5svh;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(25, 104, 194);
+  color: white;
+  border-radius: 15px;
+}
+
+.returnlogin {
+  border-collapse: collapse;
+  border: transparent;
+  border-radius: 15px;
+  font-family: "Mitr", sans-serif;
+  color: white;
+  margin: 2svh auto;
+  padding: 0.5svh 5svh;
+  background-color: transparent;
+  transition: background-color 0.5s, transform 0.2s;
+  font-size: 1.5svh;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.returnlogin:hover {
+  background-color: rgb(25, 104, 194);
+  color: white;
+  border-radius: 15px;
+}

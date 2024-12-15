@@ -1,0 +1,111 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(/img/5073414.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    font-size: 1.5svh;
+}
+
+.content {
+    width: 43svh;
+    margin: auto;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(114, 106, 106);
+    border-radius: 5svh;
+    background: transparent;
+    font-family: "Mitr", sans-serif;
+    text-align: center;
+    margin-top: 12%;
+    padding: 2% 5%;
+    color: white;
+    font-size: 2svh;
+}
+
+.content label {
+    color: white;
+    font-size: 2svh;
+}
+
+/* Estilo uniforme para todos los inputs */
+.input-container,
+.password-container {
+    position: relative;
+    width: 100%;
+    margin: 1% auto;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 1.5svh 40px 1.5svh 1.5svh; /* Espacio para el ícono */
+    font-family: "Mitr", sans-serif;
+    box-shadow: 0 0 10px rgb(114, 106, 106);
+    background: transparent;
+    border: none;
+    border-radius: 2svh;
+    color: white;
+    box-sizing: border-box;
+    font-size: 1.5svh;
+    outline: none;
+}
+
+/* Icono dentro del campo de contraseña */
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.8svh;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.toggle-password:hover {
+    transform: translateY(-50%) scale(1.2);
+}
+
+/* Botón de enviar */
+input[type="submit"] {
+    border-collapse: collapse;
+    border: transparent;
+    border-radius: 15px;
+    font-family: "Mitr", sans-serif;
+    color: white;
+    margin: 2svh auto;
+    padding: 0.5svh 5svh;
+    background-color: transparent;
+    transition: background-color 0.5s, transform 0.2s;
+    font-size: 1.5svh;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 104, 194);
+    transform: scale(1.05);
+}
+
+/* Estilo para enlace de registro */
+.regis {
+    border-collapse: collapse;
+    border: transparent;
+    border-radius: 15px;
+    font-family: "Mitr", sans-serif;
+    color: white;
+    margin: 2svh auto;
+    padding: 0.5svh 5svh;
+    background-color: transparent;
+    transition: background-color 0.5s, transform 0.2s;
+    font-size: 1.5svh;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.regis:hover {
+    background-color: rgb(25, 104, 194);
+    color: white;
+    border-radius: 15px;
+}
